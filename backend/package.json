@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "tsx watch --inspect src/server.ts",
+    "watch-dev": "tsc -w",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "5.1.0",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.1",
+    "@types/node": "22.14.1",
+    "nodemon": "3.1.10",
+    "tsx": "^4.23.15",
+    "typescript": "5.7.2"
+  }
+}

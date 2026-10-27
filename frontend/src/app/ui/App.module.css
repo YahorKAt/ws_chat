@@ -1,0 +1,28 @@
+.appContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatCard {
+    width: 100%;
+    max-width: 800px;
+    height: 80vh;
+    max-height: 800px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.inputArea {
+    border-top: 1px solid #eaeaea;
+    background: #ffffff;
+    padding: 16px;
+}

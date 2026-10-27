@@ -1,0 +1,30 @@
+.chatWindow {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+.messagesContainer {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    scroll-behavior: smooth;
+}
+
+/* Скрываем полосу прокрутки для красоты, но оставляем функционал */
+.messagesContainer::-webkit-scrollbar {
+    width: 6px;
+}
+.messagesContainer::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+.scrollAnchor {
+    height: 1px;
+}
